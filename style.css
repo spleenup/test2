@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  color: #767676;
+  line-height: 22px; 
+  min-width: 1020px;
+  margin: auto;
+}
+
+body, html {
+  height: 100%;
+}
+
+.content {
+  flex: 1 ; 
+  padding-bottom: 80px;
+}
+
+.header {
+  background-color: #dcdcdc;
+  height: 230px; 
+}
+
+.head-container {
+  margin: auto;
+  width: 1000px;
+  padding: 10px;
+  height: 100%;  
+}
+
+.header-logo
+{
+  float: left;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 50px;  
+}
+
+.logo {
+  width: 105px;
+  height: 100px; 
+  float: left;
+  padding-right: 5px;  
+}
+
+.logo-title {
+  font-size: 33px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  width: 160px;
+  float: left;
+  padding-left: 5px;
+  line-height: 26px; 
+}
+
+.logo-subtitle {
+  font-size: 16px;
+  padding-top: 5px;
+  font-weight: 400;
+  float: left;
+  padding-left: 5px;
+}
+
+.logo-title-block { 
+  padding: 8px 0;
+  height: 100px;
+}
+
+.head-contacts {
+	text-align: right;
+	float: right;
+	top: 50%;
+	height: 100%;
+}
+
+.head-phones {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+.head-phone {
+  display: block;
+  text-decoration: none;
+  color: #767676;
+}
+
+.head-phone:hover {
+  color: #525252;
+}
+
+.menu {
+  height: 80px;
+  background: #777;
+}
+
+.menu-nav-inner {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+.menu-nav-item {
+  display: inline;
+  vertical-align: top;
+}
+
+.menu-nav-link {  
+  color: #fff;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0 18px;
+  letter-spacing: 1px;
+}
+
+.line { 
+  border-right: 2px solid #fff;    
+  padding-left: 10px; 
+  height: 5px; 
+}
+
+.menu-nav-link:hover {
+  text-decoration: underline;  
+}
+
+.container {
+  margin: auto;
+  height: 100%;
+  width: 1000px;
+  padding: 10px;
+}
+
+.slider {
+  height: 400px; 
+}
+
+.slider-slide {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/slide1.png");
+  background-size: auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.content-container {
+  margin: auto;
+  width: 1000px;
+  padding: 30px 10px;
+  height: 100%;
+
+  flex: 1;    
+}
+
+.aside {
+  width: 350px;
+  background-color: #777;
+  color: #fff;
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 100px;
+}
+
+.news{
+  padding-top: 30px;
+  padding-left: 35px;
+  width: 295px;
+  text-align: left;
+}
+.news-caption {
+  font-size: 40px; 
+  padding-left: 35px;
+  padding-top: 20px;  
+}
+
+.news-time {
+  font-style: italic;
+}
+
+.news-title {
+  font-size: 14px;
+}
+
+.archiv {
+  padding: 35px 50px 0 0;
+  text-align: right;
+}
+
+.archiv-link { 
+  color: #fff;
+}
+
+.main {
+  width: 600px;
+  padding-left: 30px;
+  color: #767676;
+  float: left;  
+}
+
+.main-caption {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 10px;  
+}
+
+.main-text {
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.text {
+  padding-top: 3px;
+  padding-bottom: 3px;
+} 
+
+.footer {
+  width: 100%;
+  background-color: #777;
+  height: 220px;
+  color:#fff;
+  clear: both;
+} 
+
+.footer-container {
+  margin: auto;
+  width: 1000px;
+  padding: 10px;
+  height: 100%;  
+}
+
+.footer-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.footer-nav-inner {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-email {
+  color:#fff;
+}
+
+.footer-nav-link {
+  color: #fff;
+  line-height: 26px;
+}
+
+.pixel-plus-link {
+  color: #fff;
+}
+
+.company-logo {
+  float: left;
+  height: 38px;
+  width: 36px;
+}
+
+.company-logo-link {
+  float: left;
+  padding-left: 10px;
+}
+
+.pixel-plus-logo {
+  width: 230px;
+  height: 40px;
+  float: right;
+}
+
+.wrap {
+  min-height: 100%;
+  height: 100%; 
+  display: flex;    
+  flex-direction: column;   
+  height: auto !important;
+}
